@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carousel</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image fade">
+        <img src="assets/chick.jpg" alt="img" />
+      </div>
+      <div class="image fade">
+        <img src="assets/coffee.jpg" alt="img" />
+      </div>
+      <div class="image"><img src="assets/corgi.jpg" alt="img" /></div>
+      <div class="image"><img src="assets/gaiazoo.jpg" alt="img" /></div>
+      <div class="image"><img src="assets/joint.jpg" alt="img" /></div>
+      <div class="image"><img src="assets/man.jpg" alt="img" /></div>
+      <div class="image"><img src="assets/sunrise.jpg" alt="img" /></div>
+      <div class="image">
+        <img src="assets/vietnamese-woman.jpg" alt="img" />
+      </div>
+      <i
+        id="prev"
+        class="fa fa-chevron-left arrow"
+        onclick="show_image(-1)"
+      ></i>
+      <i
+        id="next"
+        class="fa fa-chevron-right arrow"
+        onclick="show_image(1)"
+      ></i>
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
